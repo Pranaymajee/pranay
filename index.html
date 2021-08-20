@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pranay Kr Majee</title>
+
+	<link rel="icon" href="favicon.png">
+
+	<!--bootstrap css and external stylesheets-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link href="fontcss/all.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+
+
+	<!-- font awesome -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+
+
+	<!-- Typed animation -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+	<!-- swiper css -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+	<!-- animate.css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+</head>
+
+
+<body>
+	<div class="loadcon">
+		<div class="loadtext">
+			<h5>Learn</h5>
+		</div>
+		<div class="loadtext">
+			<h5>Code</h5>
+		</div>
+		<div class="loadtext">
+			<h5>Repeat</h5>
+		</div>
+		<ul class="blocks">
+				<li class="block-1 block"></li>
+				<li class="block-2 block"></li>
+				<li class="block-3 block"></li>
+				<li class="block-4 block"></li>
+				<li class="block-5 block"></li>
+				<li class="block-6 block"></li>
+			</ul>
+	</div>
+	<canvas id="noise" class="noise"></canvas>
+
+	<div class="cursor">
+		<div class="box" style="opacity: 1; transform: matrix(0, 0, 0, 0, 397, 544);"></div>
+		<div class="box hover" style="opacity: 1; transform: matrix(0, 0, 0, 0, 397, 544);"></div>
+		<div class="drag" style="transform: matrix(0, 0, 0, 0, 218, 549);">
+			<div class="next" style="opacity: 0;"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14">
+					<path d="M1,14a1,1,0,0,1-.71-1.71L5.59,7,0.29,1.71A1,1,0,0,1,1.71.29l6,6a1,1,0,0,1,0,1.41l-6,6A1,1,0,0,1,1,14Z" class="cls-1"></path>
+				</svg></div>
+			<div class="prev" style="opacity: 0;"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14">
+					<path d="M7,0a1,1,0,0,1,.71,1.71L2.41,7l5.29,5.29a1,1,0,1,1-1.41,1.41l-6-6a1,1,0,0,1,0-1.41l6-6A1,1,0,0,1,7,0Z" class="cls-1"></path>
+				</svg></div>
+		</div>
+		<div class="tooltipCursor">
+
+		</div>
+	</div>
+	<div class="music">
+
+		<!-- <section class="animation">
+			<div class="square">
+				<img src="paper.svg" alt="">
+			</div>
+		</section> -->
+
+
+	</div>
+	<!-- Nav Bar -->
+	<nav>
+		<div class="logo">
+			<div id="imgborder">
+				<img id="playpause" src="musicicon.png" alt="">
+			</div>
+			<h4 class="data">Pranay</h4>
+		</div>
+		<ul class="nav-links">
+			<li class="navli"><a href="#title"><span class="navlinkspan">Home</span></a></li>
+			<li class="navli"><a href="#about"><span class="navlinkspan">About</span></a></li>
+			<li class="navli"><a href="#skills"><span class="navlinkspan">Skills</span></a></li>
+			<li class="navli"><a href="#contact"><span class="navlinkspan">Contact</span></a></li>
+		</ul>
+		<div class="burger">
+			<div class="line1"></div>
+			<div class="line2"></div>
+			<div class="line3"></div>
+		</div>
+	</nav>
+
+
+	<main class="skew">
+		<section id="title">
+			<!---Title -->
+			<div class="heading">
+				<div class="title-img">
+					<img class="hoverimg1" src="titleimg1.jpg" alt="">
+					<img class="hoverimg2" src="titleimg2.jpg" alt="">
+					<img class="hoverimg3" src="titleimg3.jpg" alt="">
+					<img class="hoverimg4" src="titleimg4.jpg" alt="">
+					<img class="hoverimg5" src="titleimg5.jpg" alt="">
+				</div>
+				<div class="heading-child-1">
+					<div class="title-box-1">
+						<h5 class="welcome"><span id="neonthis1" class="hidden5 showtext5">WELCOME.</span><h3>
+						<div class="h1div">
+							<h1><span class="h1span hidden1 showtext1">Hi, I'm</span></h1>
+							<h1><span class="hidden1 showtext1">Pranay<span class="h1fs">.</span></span></h1>
+						</div>
+					</div>
+
+					<div class="title-box-2">
+						<div class="h2div">
+							<h2><span class="h2span hidden2 showtext2">I create</span></h2>
+							<h2><span class=" h2span hidden2 showtext2">amazing</span></h2>
+							<h2><span class="hidden2 showtext2">experiences<span class="h2fs">.</span></span></h2>
+							</div>
+						<h5 class="loc"><span id="neonthis2" class="hidden4 showtext4">22.5726° N, 88.3639° E</span><h3>
+					</div>
+				</div>
+
+				<div class="heading-child-2">
+					<div class="title-box-3">
+						<!-- <div class="h3div"> -->
+						<h3 class="h31">
+							<div class="uiux hidden3 showtext3">UX<span class="h3span">/</span>UI</div>
+						</h3>
+						<h3 class="h32">
+							<div class="hidden3 showtext3">Designer</div>
+						</h3>
+						<!-- </div> -->
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+
+
+		<!-- About -->
+		<section id="about">
+			<div class="about-parent">
+				<div class="about-child-1">
+					<div class="myimg">
+						<img class=" profilepic" data-aos="zoom-in" data-aos-duration="2000" src="myprofilepic.jpeg" alt="Pranay's profile picture">
+					</div>
+				</div>
+
+				<div class="description about-child-2">
+					<h3 data-lax-preset="blurIn-120:5"><span class="spanheading">About Me &nbsp<i class="fad fa-vector-square" data-lax-preset="spin-360"></i></span></h3>
+					<p data-aos="fade-up" data-aos-duration="1000">I am a Programmer and a Self-taught Web Developer. I drink coffee, I eat pizza. I write code and improve
+						my design and skills every day. Born and raised in New Delhi,
+						India. Later moved to Kolkata.<br>A firm believer in learning through experience.</p>
+					<div class="aboutimg">
+						<img class="about-pic" src="about.svg" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Skills -->
+		<section id="skills">
+			<div class="skills-parent">
+				<div class="skills-child-1">
+					<h3 data-lax-preset="blurIn-120:5"><span class="spanheading">Skills In My Arsenal &nbsp<i class="fad fa-vector-square" data-lax-preset="spinRev-360"></i></span></h3>
+					<p data-aos="fade-up" data-aos-duration="1000">I have a great understanding in Data Structures & Algorithms and an efficient coder in JavaScript, HTML, CSS, Java and C/C++ so I know how to create
+						your website to run across devices using the latest technologies available.</p>
+					<a href="Pranay_Majee.pdf" target="_blank"><button class="rbtn" type="button" name="button"><i class="fal fa-download"></i>&nbspResume</button></a>
+					<div class="skillsimg">
+						<img class="skills-pic" src="skills.svg" alt="">
+					</div>
+				</div>
+				<div class="skills-child-2">
+					<ul>
+						<li data-lax-preset="fadeIn-150:20" class="html">HTML (95%)</li>
+						<li data-lax-preset="fadeIn-150:20" class="css">CSS (90%)</li>
+						<li data-lax-preset="fadeIn-150:20" class="js">JAVASCRIPT (85%)</li>
+						<li data-lax-preset="fadeIn-150:20" class="java">JAVA (90%)</li>
+						<li data-lax-preset="fadeIn-150:20" class="c">C/C++ (90%)</li>
+						<li data-lax-preset="fadeIn-150:20" class="ui">UX/UI DESIGN (95%)</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Gallery -->
+		<section id="gallery">
+
+			<div class="gallery-heading">
+				<div class="gallery-heading-inner">
+					<h3 data-lax-preset="blurIn-120:5"><span class="galleryspan">GALLERY</span></h3>
+					<p data-aos="zoom-in" data-aos-duration="1000">I click pictures too.</p>
+				</div>
+			</div>
+
+			<div class="swiper-container">
+
+				<div class="swiper-wrapper">
+					<!-- Slides -->
+					<div class="swiper-slide"><img src="slidepic1.jpeg" alt=""></div>
+					<div class="swiper-slide"><img src="slidepic2.jpeg" alt=""></div>
+					<div class="swiper-slide"><img src="slidepic3.jpeg" alt=""></div>
+					<div class="swiper-slide"><img src="slidepic4.jpeg" alt=""></div>
+					<div class="swiper-slide"><img src="slidepic5.jpeg" alt=""></div>
+					<div class="swiper-slide"><img src="slidepic6.jpeg" alt=""></div>
+					<div class="swiper-slide"><img src="slidepic7.jpg" alt=""></div>
+					<div class="swiper-slide"><img src="slidepic8.jpg" alt=""></div>
+				</div>
+
+				<div class="swiper-pagination"></div>
+
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+
+
+			</div>
+		</section>
+		<br>
+		<br>
+
+
+		<!-- Contact -->
+		<section id="contact">
+			<div class="contact-box">
+				<div class="content">
+					<div class="image-box">
+						<img src="contact.svg" alt="">
+					</div>
+					<form action="https://formspree.io/f/mvodqdrb" method="POST">
+						<div class="topic">
+							<h3>Get In Touch !</h3>
+						</div>
+						<div class="input-box">
+							<input type="text" name="Name:" required>
+							<label>Your Name</label>
+						</div>
+						<div class="input-box">
+							<input type="text" name="E-mail:" required>
+							<label>Your E-mail</label>
+						</div>
+						<br>
+						<div class="message-box">
+							<textarea rows="4" name="Message:" required></textarea>
+							<label>Your Message</label>
+						</div>
+						<br>
+						<div class="input-box">
+							<input class="submitbtn" type="submit" value="Submit">
+						</div>
+					</form>
+					<div class="icons">
+						<div class="icons-inner">
+							<a href="https://www.facebook.com/Pranay13101/" target="_blank"><i class="social-icons fab fa-facebook-square fa-2x"></i></a>
+							<a href="https://twitter.com/MyntSlush?s=09" target="_blank"><i class="social-icons fab fa-twitter fa-2x"></i></a>
+							<a href="https://www.linkedin.com/in/pranay-majee-19b3371a6" target="_blank"><i class="social-icons fab fa-linkedin fa-2x"></i></a>
+							<a href="https://www.instagram.com/pranay_majee/" target="_blank"><i class="social-icons fab fa-instagram fa-2x"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<br>
+	<!-- Footer -->
+	<section id="footer">
+		<div id="footer">
+			<p class="slogan">Web is love.</p>
+			<p class="mention">Designed and Developed by ME.</p>
+			<p class="copyright"><i class="far fa-copyright fa-sm"></i> Copyright 2021 Pranay Kr Majee</p>
+		</div>
+	</section>
+
+
+	<!-- animate on scroll js and css files -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.css" integrity="sha512-ksbpl5EUb4HLEKUNItsPMT/Ih6KcISE53GbYOu3xFUVYvTSSX5AJxTI2aigdQm9uNSkSsRMHsSGNKppkt691lw==" crossorigin="anonymous"
+		referrerpolicy="no-referrer" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.js" integrity="sha512-678bHRnILWQudsPcjDbSoYtwimEk8yPq7BBWeJaFoSHPf7Ob7N7au8M49yY9Wbpmmi0PvDzf3Rca1mbmYQLAxQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script>
+		AOS.init();
+	</script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.js" integrity="sha512-mq6TSOBEH8eoYFBvyDQOQf63xgTeAk7ps+MHGLWZ6Byz0BqQzrP+3GIgYL+KvLaWgpL8XgDVbIRYQeLa3Vqu6A==" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js" integrity="sha512-5/OHwmQzDSBS0Ous4/hlYoWLHd06/d2r7LdKZQVBXOA6PvOqWVXtdboiLTU7lQTGyVoKVTNkwi0ol4gHGlw5ww==" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js" integrity="sha512-/8phkpsAzxsbuX18zNkQ2gCq4Q5JsWoPo1jHLDeZorPUHRtx9YJxpdk+os05oDhPJVCNzA2/NMl4rmJyQ+6Fvg==" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineLite.min.js" integrity="sha512-I0VFyPo7hdM7YrEbQ0pvX4bX2904k0+B19u/xBrPrQoMprfcSnIDfGFD8kP52GbAhwtDjkEVhXlQvj8+vkJyew==" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js" integrity="sha512-ht40uOoiTef4nKq0THVzjIGh3VS108J577LVVgNXnQLXza3doXjoM3owin2vd+Hm6w88k12RIrePIVY2WNzz6Q==" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/BezierPlugin.min.js" integrity="sha512-oOy5+mtZRcqjn6b9k4oj+tk2/hVIetzOAM9Y5cndEHgLxiIGavAz1agbHf6JjGzxXZ2SMbu08Uy1DDF0UwA0qQ==" crossorigin="anonymous"></script>
+	<script src="jquery.novacancy.min.js" defer></script>
+	<script src="script.js" defer></script>
+
+
+	<audio src="music.mp3" id="song" type="audio/mp3"></audio>
+
+</body>
+
+</html>
