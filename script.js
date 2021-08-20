@@ -142,56 +142,72 @@ const img2 = document.querySelector(".hoverimg2");
 const img3 = document.querySelector(".hoverimg3");
 const img4 = document.querySelector(".hoverimg4");
 const img5 = document.querySelector(".hoverimg5");
-title1.addEventListener('mouseenter', () => {
-  img1.classList.add("showimg");
-})
-title1.addEventListener('mouseleave', () => {
-  img1.classList.remove("showimg");
-})
-title2.addEventListener('mouseenter', () => {
-  img2.classList.add("showimg");
-})
-title2.addEventListener('mouseleave', () => {
-  img2.classList.remove("showimg");
-})
-title3.addEventListener('mouseenter', () => {
-  img3.classList.add("showimg");
-})
-title3.addEventListener('mouseleave', () => {
-  img3.classList.remove("showimg");
-})
-title4.addEventListener('mouseenter', () => {
-  img4.classList.add("showimg");
-})
-title4.addEventListener('mouseleave', () => {
-  img4.classList.remove("showimg");
-})
-title5.addEventListener('mouseenter', () => {
-  img5.classList.add("showimg");
-})
-title5.addEventListener('mouseleave', () => {
-  img5.classList.remove("showimg");
-})
-title1.addEventListener('mousemove', (e) => {
-  img1.style.right = e.clientX * 0.15 + -10 + 'px';
-  img1.style.top = -e.clientY * 0.15 + 5 + 'px';
-})
-title2.addEventListener('mousemove', (e) => {
-  img2.style.right = e.clientX * 0.15 + -10 + 'px';
-  img2.style.top = -e.clientY * 0.15 + 40 + 'px';
-})
-title3.addEventListener('mousemove', (e) => {
-  img3.style.right = e.clientX * 0.15 + -10 + 'px';
-  img3.style.top = -e.clientY * 0.15 + 5 + 'px';
-})
-title4.addEventListener('mousemove', (e) => {
-  img4.style.right = e.clientX * 0.15 + -10 + 'px';
-  img4.style.top = -e.clientY * 0.15 + 130 + 'px';
-})
-title5.addEventListener('mousemove', (e) => {
-  img5.style.right = e.clientX * 0.15 + -160 + 'px';
-  img5.style.top = -e.clientY * 0.15 + 30 + 'px';
-})
+
+
+function myFunction(x) {
+  if (x.matches) {
+
+  } else {
+
+    title1.addEventListener('mouseenter', () => {
+      img1.classList.add("showimg");
+    })
+    title1.addEventListener('mouseleave', () => {
+      img1.classList.remove("showimg");
+    })
+    title2.addEventListener('mouseenter', () => {
+      img2.classList.add("showimg");
+    })
+    title2.addEventListener('mouseleave', () => {
+      img2.classList.remove("showimg");
+    })
+    title3.addEventListener('mouseenter', () => {
+      img3.classList.add("showimg");
+    })
+    title3.addEventListener('mouseleave', () => {
+      img3.classList.remove("showimg");
+    })
+    title4.addEventListener('mouseenter', () => {
+      img4.classList.add("showimg");
+    })
+    title4.addEventListener('mouseleave', () => {
+      img4.classList.remove("showimg");
+    })
+    title5.addEventListener('mouseenter', () => {
+      img5.classList.add("showimg");
+    })
+    title5.addEventListener('mouseleave', () => {
+      img5.classList.remove("showimg");
+    })
+    title1.addEventListener('mousemove', (e) => {
+      img1.style.right = e.clientX * 0.15 + -10 + 'px';
+      img1.style.top = -e.clientY * 0.15 + 5 + 'px';
+    })
+    title2.addEventListener('mousemove', (e) => {
+      img2.style.right = e.clientX * 0.15 + -10 + 'px';
+      img2.style.top = -e.clientY * 0.15 + 40 + 'px';
+    })
+    title3.addEventListener('mousemove', (e) => {
+      img3.style.right = e.clientX * 0.15 + -10 + 'px';
+      img3.style.top = -e.clientY * 0.15 + 5 + 'px';
+    })
+    title4.addEventListener('mousemove', (e) => {
+      img4.style.right = e.clientX * 0.15 + -10 + 'px';
+      img4.style.top = -e.clientY * 0.15 + 130 + 'px';
+    })
+    title5.addEventListener('mousemove', (e) => {
+      img5.style.right = e.clientX * 0.15 + -160 + 'px';
+      img5.style.top = -e.clientY * 0.15 + 30 + 'px';
+    })
+
+
+  }
+}
+
+  var x = window.matchMedia("(max-width: 700px)")
+  myFunction(x)
+  x.addListener(myFunction)
+
 
 
 // swiper
