@@ -752,7 +752,7 @@ position: relative;
 
 /* Skills-Box */
 #skills {
-  padding: 45px 0 90px;
+  padding: 45px 0 60px;
   height: 93%;
   width: 100%;
   background: #e0e5ec;
@@ -932,6 +932,12 @@ position: relative;
   to {
     width: 95%;
   }
+}
+
+#c {
+  max-width: 100%;
+  display: block;
+  padding-bottom: 15px;
 }
 
 /* Gallery-box */
@@ -1529,6 +1535,7 @@ position: relative;
   .skills-child-2 {
     width: 85%;
     margin-top: 70px;
+    padding: 0 30px 0 30px;
   }
 
   .skills-child-1 h3 {
@@ -1550,10 +1557,6 @@ position: relative;
 
   .rbtn:hover {
     background-color: rgb(57, 62, 70, 0.8);
-  }
-
-  .skills-child-2 {
-    padding: 0 30px 25px 30px;
   }
 
   .skills-child-2 li {
