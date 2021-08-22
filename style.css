@@ -825,8 +825,8 @@ position: relative;
   box-shadow: 9px 9px 39px #c7ccd2, -9px -9px 39px #ffffff;
   background-color: #393E46;
   border-radius: 10px;
-  -webkit-transition: 0.4s ease-in-out;
-  -moz-transition: 0.4s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
   font-size: 1.2rem;
   font-weight: 400;
   outline: none;
@@ -1188,12 +1188,12 @@ position: relative;
   font-weight: 400;
   cursor: pointer;
   letter-spacing: 1px;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
 }
 
 .content .input-box input[type="submit"]:hover {
-  transform: skewY(-3deg);
+  transform: skewY(-3.7deg);
   background-color: rgb(57, 62, 70, 0.8);
 }
 
