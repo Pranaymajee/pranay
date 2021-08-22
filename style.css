@@ -616,18 +616,32 @@ position: relative;
   position: relative;
   width: 100%;
   height: 100%;
+  transition: 0.7s ease-in-out;
+}
+.title-box-3:hover{
+  transform: rotate(-7deg) scale(0.8);
 }
 .h1div{
   position: absolute;
   width: 18.8rem;
   left: 5.5rem;
   top: 15rem;
+  transition: 0.7s ease-in-out;
+}
+.h1div:hover{
+  transform: scale(1.7);
+  transform-origin: left;
 }
 .h2div{
   position: absolute;
   width: 24.5rem;
   left: 5.5rem;
   top: 4rem;
+  transition: 0.7s ease-in-out;
+}
+.h2div:hover{
+  transform: scale(1.5);
+  transform-origin: left;
 }
 .h31{
   position: absolute;
@@ -1435,6 +1449,9 @@ position: relative;
     width: 100%;
     height: 100%;
   }
+ .title-box-3:hover{
+    transform: none;
+  }
   .loc{
     transform: rotate(90deg);
     font-size: 12px;
@@ -1451,10 +1468,16 @@ position: relative;
     left: 2rem;
     top: 8rem;
   }
+  .h1div:hover{
+    transform: none;
+  }
   .h2div{
     width: 20rem;
     left: 2rem;
     top: 7rem;
+  }
+  .h2div:hover{
+    transform: none;
   }
 
   .h31{
