@@ -382,7 +382,7 @@ nav {
 .navlinkspan{
   transform: translate(0,100%);
   display: inline-block;
-  animation: reveallink 1.5s cubic-bezier(0.77, 0, 0.175, 1) 8.2s forwards;
+  animation: reveallink 1.5s cubic-bezier(0.77, 0, 0.175, 1) 9s forwards;
 }
 @keyframes reveallink {
   0% {
