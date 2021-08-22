@@ -434,6 +434,7 @@ nav {
   visibility: hidden;
   clip-path: polygon(100% 0, 100% 0, 0 100%, 0 100%);
   transition: all 0.4s;
+  mix-blend-mode: difference;
 }
 .showimg{
   visibility: visible !important;
