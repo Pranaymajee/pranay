@@ -710,6 +710,15 @@ TweenMax.staggerTo(
   },
   0.2
 );
+TweenMax.staggerTo(
+  ".navlinkspan",
+  2.6, {
+    y: "0",
+    delay: 9,
+    ease: Expo.easeInOut,
+  },
+  0.2
+);
 
 
 
