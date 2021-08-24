@@ -620,7 +620,7 @@ position: relative;
   transition: 0.7s ease-in-out;
 }
 .h1div:hover{
-  transform: scale(1.7);
+  transform: scale(1.4);
   transform-origin: left;
 }
 .h2div{
@@ -631,7 +631,7 @@ position: relative;
   transition: 0.7s ease-in-out;
 }
 .h2div:hover{
-  transform: scale(1.5);
+  transform: scale(1.4);
   transform-origin: left;
 }
 .h31{
