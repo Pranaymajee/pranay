@@ -220,10 +220,10 @@ const swiper = new Swiper('.swiper-container', {
     dynamicBullets: true,
   },
 
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+//   navigation: {
+//     nextEl: '.swiper-button-next',
+//     prevEl: '.swiper-button-prev',
+//   },
 
 });
 
