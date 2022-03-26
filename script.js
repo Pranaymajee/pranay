@@ -1,12 +1,3 @@
-// var Controller = new ScrollMagic.Controller();
-// var myScene = new ScrollMagic.Scene({
-//   triggerElement: '.h1div',
-//   triggerHook: 0.355,
-//   reverse: false
-// })
-// .setClassToggle('.hidden', 'showtext')
-// // .addIndicators()
-// .addTo(Controller);
 
 $('#neonthis1').novacancy({
   'reblinkProbability': 0.5,
@@ -658,12 +649,14 @@ window.onload = function() {
   }, false)
 }
 
-//landing page
 
+//landing page
 const loadtexts = document.querySelectorAll('.loadtext');
 loadtexts.forEach(loadtext => {
   loadtext.classList.add('opacity1');
 });
+const loadblocks = document.querySelector(".blocks");
+loadblocks.classList.add('opacity12');
 
 TweenMax.to(
   ".loadcon",
