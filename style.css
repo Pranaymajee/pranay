@@ -1773,6 +1773,7 @@ position: relative;
   .contact-box .content {
     justify-content: space-evenly;
     flex-direction: column;
+    border-radius: 30px;
     padding: 0 25px;
   }
 
