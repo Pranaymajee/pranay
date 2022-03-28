@@ -1213,7 +1213,7 @@ position: relative;
   outline: none;
   padding-left: 16px;
   background: #e0e5ec;
-  box-shadow: 9px 9px 20px #c7ccd2, -9px -9px 20px #ffffff;
+  box-shadow: 9px 9px 17px #c7ccd2, -9px -9px 17px #ffffff;
   border: 2px solid transparent;
   transition: all 0.3s ease;
 }
@@ -1271,7 +1271,7 @@ position: relative;
   border: 2px solid transparent;
   border-radius: 10px;
   background: #e0e5ec;
-  box-shadow: 9px 9px 20px #c7ccd2, -9px -9px 20px #ffffff;
+  box-shadow: 9px 9px 17px #c7ccd2, -9px -9px 17px #ffffff;
   outline: none;
   transition: all 0.3s ease;
 }
