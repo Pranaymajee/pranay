@@ -710,7 +710,7 @@ position: relative;
   width: 40%;
   border-radius: 50px;
   background: #e0e5ec;
-  box-shadow: 9px 9px 39px #c7ccd2, -9px -9px 39px #ffffff;
+  box-shadow: 9px 9px 25px #c7ccd2, -9px -9px 25px #ffffff;
 }
 
 .about-child-2 {
@@ -720,7 +720,7 @@ position: relative;
   background-color: #393E46;
   border-radius: 50px;
   background: #e0e5ec;
-  box-shadow: 9px 9px 39px #c7ccd2, -9px -9px 39px #ffffff;
+  box-shadow: 9px 9px 25px #c7ccd2, -9px -9px 25px #ffffff;
 }
 
 .myimg img {
@@ -780,7 +780,7 @@ position: relative;
   align-self: center;
   border-radius: 50px;
   background: #e0e5ec;
-  box-shadow: 9px 9px 39px #c7ccd2, -9px -9px 39px #ffffff;
+  box-shadow: 9px 9px 25px #c7ccd2, -9px -9px 25px #ffffff;
 }
 
 .skills-child-2 {
@@ -789,7 +789,7 @@ position: relative;
   align-self: center;
   width: 40%;
   background: #e0e5ec;
-  box-shadow: 9px 9px 39px #c7ccd2, -9px -9px 39px #ffffff;
+  box-shadow: 9px 9px 25px #c7ccd2, -9px -9px 25px #ffffff;
 }
 
 .skills-child-1 h3 {
@@ -970,7 +970,7 @@ position: relative;
   margin: 0;
   border-radius: 50px;
   background: #e0e5ec;
-  box-shadow: 9px 9px 39px #c7ccd2, -9px -9px 39px #ffffff;
+  box-shadow: 9px 9px 25px #c7ccd2, -9px -9px 25px #ffffff;
 }
 
 .projects-child h3{
@@ -991,7 +991,7 @@ position: relative;
 
 .project-border{
   border-radius: 25px;
-  box-shadow: inset 9px 9px 20px #c7ccd2, inset -9px -9px 20px #ffffff;
+  box-shadow: inset 9px 9px 17px #c7ccd2, inset -9px -9px 17px #ffffff;
 }
 
 .project-content{
@@ -1037,7 +1037,6 @@ position: relative;
   height: 50px;
   width: 140px;
   color: #ffffff;
-  box-shadow: 9px 9px 39px #c7ccd2, -9px -9px 39px #ffffff;
   background-color: #393E46;
   border-radius: 10px;
   -webkit-transition: 0.2s ease-in-out;
@@ -1155,7 +1154,7 @@ position: relative;
   padding: 25px 25px;
   border-radius: 50px;
   background: #e0e5ec;
-  box-shadow: 9px 9px 39px #c7ccd2, -9px -9px 39px #ffffff;
+  box-shadow: 9px 9px 25px #c7ccd2, -9px -9px 25px #ffffff;
 }
 
 .topic {
