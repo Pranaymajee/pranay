@@ -310,7 +310,7 @@ nav {
   /* background-color: #e0e5ec; */
   z-index: 6;
   -webkit-backdrop-filter: blur(1.3rem);
-  backdrop-filter: blur(1.3rem);
+  backdrop-filter: blur(1.8rem);
   background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.0));
 }
 
