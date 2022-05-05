@@ -918,17 +918,8 @@ c.addEventListener("mouseleave", () => {
   m.e = false;
 });
 
-function myLuxy(x) {
-  if (x.matches) {
 
-  } else {
-    luxy.init();
-  }
-}
-var x = window.matchMedia("(max-width: 700px)")
-myLuxy(x)
-x.addListener(myLuxy)
-// luxy.init();
+luxy.init();
 
 
 jumpTo = (obj) => {
