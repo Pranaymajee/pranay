@@ -394,13 +394,13 @@ function skewEffect() {
 skewEffect();
 
 //navLogo
-const text = baffle(".data");
-text.set({
-  characters: '░▓▓░▒█▒▒▓▓▓██▒░▓█▓█▒░░▒░░░░▓█',
-  speed: 160
-});
-text.start();
-text.reveal(7000, 7600);
+// const text = baffle(".data");
+// text.set({
+//   characters: '░▓▓░▒█▒▒▓▓▓██▒░▓█▓█▒░░▒░░░░▓█',
+//   speed: 160
+// });
+// text.start();
+// text.reveal(7000, 7600);
 
 //lax
 "use strict";
