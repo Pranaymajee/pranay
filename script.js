@@ -1,3 +1,57 @@
+function mySkills(x) {
+  if (x.matches) {
+    const Texts = ['HTML5', 'CSS3', 'JAVASCRIPT', 'JDBC', 'REACT', 'C++', 'PYTHON', 'SASS', 'NODEJS', 'C', 'MONGODB', 'EXPRESS', 'MYSQL', 'JQUERY', 'JAVA'];
+
+    var tagCloud = TagCloud('.Sphere', Texts, {
+
+      // Sphere radius in px
+      radius: 150,
+
+      // animation speed
+      // slow, normal, fast
+      maxSpeed: 'normal',
+      initSpeed: 'fast',
+
+      // Rolling direction [0 (top) , 90 (left), 135 (right-bottom)]
+      direction: 135,
+
+      // interaction with mouse or not [Default true (decelerate to rolling init speed, and keep rolling with mouse).]
+      keep: true
+    });
+
+    // Giving color to each text in sphere
+    var color = '#393E46';
+    document.querySelector('.Sphere').style.color = color;
+  } else {
+    const Texts = ['HTML5', 'CSS3', 'JAVASCRIPT', 'JDBC', 'REACT', 'C++', 'PYTHON', 'SASS', 'NODEJS', 'C', 'MONGODB', 'EXPRESS', 'MYSQL', 'JQUERY', 'JAVA'];
+
+    var tagCloud = TagCloud('.Sphere', Texts, {
+
+      // Sphere radius in px
+      radius: 280,
+
+      // animation speed
+      // slow, normal, fast
+      maxSpeed: 'normal',
+      initSpeed: 'fast',
+
+      // Rolling direction [0 (top) , 90 (left), 135 (right-bottom)]
+      direction: 135,
+
+      // interaction with mouse or not [Default true (decelerate to rolling init speed, and keep rolling with mouse).]
+      keep: true
+    });
+
+    // Giving color to each text in sphere
+    var color = '#393E46';
+    document.querySelector('.Sphere').style.color = color;
+  }
+}
+
+var x = window.matchMedia("(max-width: 700px)")
+mySkills(x)
+x.addListener(mySkills)
+
 
 $('#neonthis1').novacancy({
   'reblinkProbability': 0.5,
