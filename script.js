@@ -1,6 +1,6 @@
 function mySkills(x) {
   if (x.matches) {
-    const Texts = ['HTML5', 'CSS3', 'JAVASCRIPT', 'JDBC', 'REACT', 'C++', 'PYTHON', 'SASS', 'NODEJS', 'C', 'MONGODB', 'EXPRESS', 'MYSQL', 'JQUERY', 'JAVA'];
+    const Texts = ['OPEN_AI','HTML5', 'CSS3', 'JAVASCRIPT', 'JDBC', 'REACT', 'C++', 'PYTHON', 'SASS', 'NODEJS', 'C', 'MONGODB', 'EXPRESS', 'MYSQL', 'JQUERY', 'JAVA'];
 
     var tagCloud = TagCloud('.Sphere', Texts, {
 
