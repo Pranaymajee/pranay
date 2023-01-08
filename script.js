@@ -53,6 +53,7 @@ mySkills(x)
 x.addListener(mySkills)
 
 
+
 $('#neonthis1').novacancy({
   'reblinkProbability': 0.5,
   'blinkMin': 0.2,
@@ -249,9 +250,9 @@ function myFunction(x) {
   }
 }
 
-  var x = window.matchMedia("(max-width: 700px)")
-  myFunction(x)
-  x.addListener(myFunction)
+var x = window.matchMedia("(max-width: 700px)")
+myFunction(x)
+x.addListener(myFunction)
 
 
 
@@ -394,13 +395,13 @@ function skewEffect() {
 skewEffect();
 
 //navLogo
-// const text = baffle(".data");
-// text.set({
-//   characters: '░▓▓░▒█▒▒▓▓▓██▒░▓█▓█▒░░▒░░░░▓█',
-//   speed: 160
-// });
-// text.start();
-// text.reveal(7000, 7600);
+const text = baffle(".data");
+text.set({
+  characters: '░▓▓░▒█▒▒▓▓▓██▒░▓█▓█▒░░▒░░░░▓█',
+  speed: 160
+});
+text.start();
+text.reveal(7000, 7600);
 
 //lax
 "use strict";
@@ -703,56 +704,58 @@ window.onload = function() {
   }, false)
 }
 
-
 //landing page
-const loadtexts = document.querySelectorAll('.loadtext');
+
+const loadtexts = document.querySelectorAll(".loadtext");
 loadtexts.forEach(loadtext => {
   loadtext.classList.add('opacity1');
 });
 const loadblocks = document.querySelector(".blocks");
 loadblocks.classList.add('opacity12');
 
+
+
 TweenMax.to(
   ".loadcon",
   2, {
     x: "100%",
     ease: Expo.easeInOut,
-    delay: 7,
+    delay: 5,//7
   },
 );
 TweenMax.staggerFrom(
   ".loadtext",
   1, {
-    x: "-80",
+    x: "-40",
     ease: Power3.easeInOut,
     opacity: "0",
   },
-  2
+  1.3
 );
 TweenMax.staggerTo(
   ".loadtext",
-  0.8, {
-    x: "80",
+  1, {
+    x: "40",
     ease: Power3.easeInOut,
     delay: 1.2,
     opacity: "0",
   },
-  2
+  1.3
 );
 TweenMax.staggerFrom(
   ".blocks > li",
-  3, {
+  1.2, {
     x: "-1600",
-    delay: 4.2,
+    delay: 3.5,
     ease: Expo.easeInOut,
   },
   0.16
 );
 TweenMax.staggerTo(
   ".blocks > li",
-  2.6, {
+  1.2, {
     x: "1600",
-    delay: 6.8,
+    delay: 5,
     ease: Expo.easeInOut,
   },
   0.2
@@ -761,14 +764,11 @@ TweenMax.staggerTo(
   ".navlinkspan",
   2.6, {
     y: "0",
-    delay: 9,
+    delay: 7.3,
     ease: Expo.easeInOut,
   },
   0.2
 );
-
-
-
 
 
 
@@ -919,7 +919,16 @@ c.addEventListener("mouseleave", () => {
 });
 
 
-luxy.init();
+function myLuxy(x) {
+  if (x.matches) {
+
+  } else {
+    luxy.init();
+  }
+}
+var x = window.matchMedia("(max-width: 700px)")
+myLuxy(x)
+x.addListener(myLuxy)
 
 
 jumpTo = (obj) => {
@@ -930,3 +939,4 @@ jumpTo = (obj) => {
     });
     window.location = `${obj}`;
 };
+
