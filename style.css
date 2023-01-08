@@ -21,7 +21,7 @@ body {
   z-index: -10;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 html {
@@ -1374,7 +1374,7 @@ position: relative;
 /* Media Queries */
 @media (max-width: 992px) {
   body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
   }
 
   .loadtext h5{
