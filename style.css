@@ -1376,6 +1376,14 @@ position: relative;
   body {
     overflow-x: hidden !important;
   }
+	
+  #luxy {
+    overflow-x: hidden;
+  }
+
+  ::-webkit-scrollbar {
+    display: none !important;
+  }
 
   .loadtext h5{
     font-size: 100px;
